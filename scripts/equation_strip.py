@@ -1,0 +1,36 @@
+with open('classical_mech.txt') as f:
+	lines = f.readlines()
+f1 = open('strip_mech_eq.txt', 'w')
+for line in lines:
+	if line[:2] == "Eq":
+		line = line.replace('mathbf*', '')
+		line = line.replace('*mathbf', '')
+		line = line.replace(', mathbf', '')
+		line = line.replace('mathbf,', '')
+		line = line.replace('mathrm*', '')
+		line = line.replace('*mathrm', '')
+		line = line.replace(', mathrm', '')
+		line = line.replace('*boldsymbol', '')
+		line = line.replace('boldsymbol*', '')
+		line = line.replace('hat*', '')
+		line = line.replace('over*', '')
+		line = line.replace('*over', '')
+		line = line.replace('over', '')
+		line = line.replace('left*', '')
+		line = line.replace('*left', '')
+		line = line.replace('-left', '')
+		line = line.replace('left', '')
+		line = line.replace('*right', '')
+		line = line.replace('right*', '')
+		line = line.replace('right', '')
+		# line = line.replace('d*', '')
+		# line = line.replace('Integral', '')
+		line = line.replace('partial*', '')
+		line = line.replace('*partial', '')
+		line = line.replace('partial', '')
+		line = line.replace('*mathcal', '')
+
+
+
+		f1.write(line)
+f1.close()
