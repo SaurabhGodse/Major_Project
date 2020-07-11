@@ -1,0 +1,38 @@
+Make sure you install the dependencies
+
+pip3 install tensorflow==1.15
+pip3 install -U bert-serving-server bert-serving-client
+
+Download the bert base uncased model
+wget https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-12_H-768_A-12.zip
+
+Unzip it at location bert_uncased
+unzip uncased_L-12_H-768_A-12.zip -d bert_uncased 
+
+
+Start the server to find the inference
+bert-serving-start -model_dir uncased_L-12_H-768_A-12/ -num_worker=1
+bert-serving-start -model_dir scibert_scivocab_uncased/ -num_worker=1
+
+
+
+
+After running the server
+Run this in python notebook
+
+from bert_serving.client import BertClient()
+client = BertClient()
+vectors = client.encode([“dog”],[“cat”],[“man”])
+
+
+from sklearn.metrics.pairwise import cosine_similarity
+cos_lib = cosine_similarity(vectors[1,:],vectors[2,:]) #similarity between #cat and dog
+
+
+
+
+
+Isme you will find the whole documentation and this can 
+even encode sentences and then find relation.
+
+https://pypi.org/project/bert-serving-server/
