@@ -1,0 +1,97 @@
+Question number : 1
+Mike was snowboarding on the snow and hit a piece of ice. He went much faster on the ice because _____ is smoother. (A) snow (B) ice
+---> 
+{'weight', 'mass', 'distance', 'acceleration', 'speed'}
+
+Question number : 2
+John and Rita are going for a run.  Rita gets tired and takes a break on the park bench.  After twenty minutes in the park, who has run farther? (A) John (B) Rita
+---> 
+{'heat', 'speed', 'time', 'gravity'}
+
+Question number : 3
+
+The propeller on Kate's boat moved slower in the ocean compared to the river. 
+This means the propeller heated up less in the (A) ocean (B) river
+---> 
+{'weight', 'heat', 'distance', 'acceleration', 'speed'}
+
+Question number : 4
+A car gets very hot as it drives up a muddy hill, but stays cool as it drives up a grass hill. The car warms on on the muddy hill because the muddy hill has (A) more friction (B) less friction.
+---> 
+{'acceleration', 'weight', 'speed', 'heat'}
+
+Question number : 5
+Juan is injured in a car accident, which necessitates a hospital stay where he is unable to maintain the strength in his arm. Juan notices that his throwing arm feels extremely frail compared to the level of strength it had when he was healthy. If Juan decides to throw a ball with his friend, when will his throw travel less distance? (A) When Juan's arm is healthy (B) When Juan's arm is weak after the hospital stay.
+---> 
+{'weight', 'mass', 'time', 'distance', 'acceleration', 'speed', 'strength', 'gravity'}
+
+Question number : 6
+The pizza delivery driver stopped by the streetlamp and noted the address of the red house he was in front of. He looked at the brown home across the street, but that address wasn't visible to him, despite a street light in front. In this scenario, was the delivery driver closer to (A) the red house or (B) the brown house?
+---> 
+{'weight', 'time', 'distance', 'speed', 'strength', 'gravity'}
+
+Question number : 7
+Jed is trying to win a race against his friend Tyler. Jed is heavyset, and Tyler is thin. During the race, who will speed up fastest? (A) Jed (B) Tyler
+---> 
+{'mass', 'time', 'distance', 'acceleration', 'speed', 'gravity'}
+
+Question number : 8
+Tim was playing with his new marble in the living room of his house. He realized that the marble rolled much smoother on the _____. The higher friction of the laminate flooring made the marble rolled slower. (A) glass table (B) laminate flooring of his living room
+---> 
+{'acceleration', 'weight', 'speed', 'distance'}
+
+Question number : 9
+Jason tried going down the slide with bare feet but kept putting his feet down to stop himself. When he went with socks, he went much faster. This is due to the socks providing (A) less friction (B) more friction?
+---> 
+{'friction', 'weight', 'time', 'distance', 'acceleration', 'speed', 'strength'}
+
+Question number : 10
+Mary has a cat that she loves to play with. Sometimes she drags the cat toy across the floor so the cat can chase it. When she drags the cat toy across the play room floor it goes quite a far distance. When she drags it across the rumpus room floor it barely moves at all. This means the _____ is more smooth (A) play room floor (B) rumpus room floor
+---> 
+{'weight', 'time', 'distance', 'acceleration', 'speed'}
+
+Question number : 11
+Maggie tried opening a lid after eating popcorn and found she couldn't do it because her hands were too slippery. The oil made her hands have (A) less resistance (B) more resistance.
+---> 
+{'weight', 'time', 'heat', 'acceleration', 'speed', 'strength', 'gravity'}
+
+Question number : 12
+Two cars are traveling down a highway. They start out next to each other, but in 10 minutes, the car in the right lane is way ahead of the car in the left lane. Which car wasn't going as fast as the other car? (A) the one on the left (B) the one on the right
+---> 
+{'distance', 'acceleration', 'speed', 'strength', 'gravity'}
+
+Question number : 13
+If Jimbo is 4 feet away from a beetle and 100 feet away from a grasshopper, which insect will seem bigger to him? (A) beetle (B) grasshopper
+---> 
+{'weight', 'mass', 'time', 'distance', 'acceleration', 'speed'}
+
+Question number : 14
+Lisa is studying for her exam. She is working at her desk on the computer and reading. She has no issues reading the tiny print. The light source in the room must be a? (A) Desk Lamp (B) Floor Lamp
+---> 
+{'distance', 'speed', 'time', 'gravity'}
+
+Question number : 15
+Jabba is lounging on a recliner, watching his favorite dancer perform.  She twirls and twerks, whirls and writhes, her chains clanging rhythmically to the exotic music.  Who will sweat less? (A) Jabba will sweat less than the dancer (B) Jabba will sweat more than the dancer
+---> 
+{'weight', 'time', 'distance', 'heat', 'gravity'}
+
+Question number : 16
+Carrie visits Dina at her house. Dina rides her exercise bike while Carrie sits and watches television. Which of the two will have a smaller pool of sweat at their feet when they are done? (A) Carrie (B) Dina.
+---> 
+{'time', 'heat', 'distance', 'acceleration', 'speed'}
+
+Question number : 17
+Mary and Billy are at the beach skipping rocks.  Billy works out everyday, but Mary is weaker.  Who can throw the rocks farther? (A) Mary (B) Billy
+---> 
+{'weight', 'mass', 'time', 'distance', 'acceleration', 'speed', 'gravity'}
+
+Question number : 18
+Marcus's son took the pool ball off the pool table to play with it around the house. The son noticed that the pool ball rolled a longer distance on the marble floor than on the shag rug. The smoother surface is (A) the marble floor or (B) the shag rug.
+---> 
+{'mass', 'distance', 'acceleration', 'speed', 'strength', 'gravity'}
+
+Question number : 19
+Emily threw a banana onto the roof and it stuck there, but when she threw it onto the slide, it slid right off. She concluded that there was less friction on the (A) roof (B) slide.
+---> 
+{'acceleration', 'weight', 'speed', 'distance'}
+
